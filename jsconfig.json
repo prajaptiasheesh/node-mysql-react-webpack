@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": false,
+        "baseUrl": "./src",
+        "paths": {
+          "helpers/*": ["src/helpers/*"],
+          "Shared/*": ["src/components/shared/*"],
+          "Services/*": ["src/services/*"],
+          "Constants/*": ["src/constants/*"]        
+        }
+      },
+      "exclude": ["node_modules", "dist"]
+}

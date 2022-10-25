@@ -1,0 +1,86 @@
+
+.login-form{
+  width: 25%;
+  margin: 10em auto;
+  .submit button{
+    margin: auto auto;
+  }
+}
+
+.user-add-form{
+  width: 70%;
+  margin: 10em auto;
+}
+
+.sidebar-container{
+  .body{
+    margin-left: 250px;
+    margin-top: 2em;
+  }
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2b9348;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+
+  ul{
+    list-style: none;
+    margin-top: 10px;
+  }
+}
+
+.toggle-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  .openbtn {
+    cursor: pointer;
+    background-color: #2b9348;
+    color: white;
+    border: none;
+    &:hover {
+      background-color: #2b9348;
+    }
+  }
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar {
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 15px;
+    color: #fff;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+      padding-top: 15px;
+  }
+
+  .sidebar a {
+      font-size: 18px;
+  }
+}
